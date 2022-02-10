@@ -16,6 +16,9 @@ public class Title {
     @Column(name = "ID_TITLE")
     private Long id;
 
+    @Column(name = "TITLE")
+    private String title;
+
     @Column(name = "AUTHOR")
     private String author;
 
